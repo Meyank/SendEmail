@@ -1,0 +1,8 @@
+package sendemaail.emailsender;
+
+public class StartUp {
+	public static void main(String[] args) {
+
+		Mailer.send("", "", "", "hello Its mayank", "How r u?");
+	}
+}
